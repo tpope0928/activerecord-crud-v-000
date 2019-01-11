@@ -85,7 +85,7 @@ def can_update_multiple_items_at_once
     Movie.create(title: "Movie_#{i}", release_date: 2000+i)
   end
   Movie.all.each{|movie|}
-  movie.update(title: "A Movie")}
+  movie.update(title: "A Movie")
 end
 
 def can_destroy_a_single_item
